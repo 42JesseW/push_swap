@@ -6,24 +6,24 @@
 /*   By: jevan-de <jevan-de@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/04/18 16:46:09 by jevan-de      #+#    #+#                 */
-/*   Updated: 2021/10/17 14:59:44 by jevan-de      ########   odam.nl         */
+/*   Updated: 2021/10/20 17:50:28 by jevan-de      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_LIBFT_H
+#ifndef LIBFT_H
 
-# define FT_LIBFT_H
+# define LIBFT_H
 
 # include <stddef.h>
 # include <stdlib.h>
 # include <limits.h>
 # include <unistd.h>
 
-typedef struct		s_list
+typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
-}					t_list;
+}	t_list;
 
 int					ft_ternary_int(int condition, int a, int b);
 
